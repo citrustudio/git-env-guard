@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools==80.9.0", "wheel==0.45.1"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "git-env-guard"
+version = "0.1.0"
+description = "Static Git fixture isolation checks"
+requires-python = ">=3.9"
+dependencies = ["tomli>=2,<3; python_version < '3.11'"]
+license = "Apache-2.0"
+readme = "README.md"
+
+[project.scripts]
+git-env-guard = "git_env_guard.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["git_env_guard*"]

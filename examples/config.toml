@@ -1,0 +1,7 @@
+extra-globs = ["fixtures/*.fixture"]
+commands = ["commit", "worktree"]
+scrub-markers = ["clean_fixture_environment"]
+max-bytes = 1048576
+
+[ignore]
+"tests/detector_cases.py" = "Literal hostile cases for the detector itself"

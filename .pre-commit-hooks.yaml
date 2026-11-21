@@ -1,0 +1,6 @@
+- id: git-env-guard
+  name: Check fixture Git environment isolation
+  entry: git-env-guard
+  language: python
+  pass_filenames: false
+  always_run: true
