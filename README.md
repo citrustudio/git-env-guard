@@ -7,7 +7,7 @@ Clear every variable named by `git rev-parse --local-env-vars` before running Gi
 against a disposable repository. See the [shell](examples/fixture.sh) and
 [Python](examples/fixture.py) examples; do not run fixtures against a real checkout.
 
-Python 3.9–3.13. The tool only reads source and Git objects. It never executes or
+Python 3.10–3.13. The tool only reads source and Git objects. It never executes or
 imports scanned files, writes repositories, accesses the network or runs fixtures.
 TOML parsing uses the standard library on 3.11+ and tomli on older Python.
 

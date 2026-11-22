@@ -6,7 +6,13 @@ build-backend = "setuptools.build_meta"
 name = "git-env-guard"
 version = "0.1.0"
 description = "Static Git fixture isolation checks"
-requires-python = ">=3.9"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+]
 dependencies = ["tomli>=2,<3; python_version < '3.11'"]
 license = "Apache-2.0"
 readme = "README.md"

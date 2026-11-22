@@ -1,5 +1,7 @@
 # Usage
 
+Requires Python 3.10 or newer; CI tests Python 3.10–3.13.
+
 `git-env-guard [-h] [--root DIR] [--config FILE]`. `-h` / `--help` shows help.
 `python -m git_env_guard` has the same interface. Exit 0 means a nonempty scan
 found no unmarked fixture commands; exit 1 means offenders or an input/config/Git
